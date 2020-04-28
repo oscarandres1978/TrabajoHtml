@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <h1>Formularios</h1>
+        <h2>Usando Datalist</h2>
+        <label>Escoja la ciudad
+        <input list="browsers" name="myBrowser" /></label>
+        <datalist id="browsers">
+        <option value="Cartagena">
+        <option value="Medellin">
+        <option value="Bogota">
+        <option value="Cali">
+    </datalist>
+    </div>
+
+    <div>
+        <h2>Usando Pattern</h2>
+        <form name="formulario" method="post" action="#">
+
+            <input type="password" name="password" placeholder="Contraseña" required pattern="[A-Za-z0-9]{1,10}" title="Debe contener al menos un numero y una mayuscula y una minuscula, y al menos 8 mas caracteres ">
+            <button>Enviar</button>
+    </div>
+
+    <div>
+        <h2>Usando PlaceHolder</h2>
+        <input type="text" name="nombre" id="name" placeholder="Escribe el nombre"><br>
+        <input type="text" name="apellido" id="last" placeholder="Escrible los apellidos">
+        <button>Enviar</button>
+    </div>
+    <div>
+        <h2>Required</h2>
+        Usuario:
+        <input type="text" name="" id="" required>
+        <button>Enviar</button>
+    </div><br>
+
+    <div>
+        <h2>Actividad 2.4</h2>
+        nombre:<input type="text" name="nombre" id="name">
+        <br>correo electronico<input type="email" name="correo" id="email">
+        <br>URL:<input type="URL" name="" id="" placeholder="Escribe la URL de tu pagina">
+        <br>Fecha<input type="date" name="" id="">
+        <br>Tiempo<input type="time" name="" id="">
+        <br>Fecha y hora de nacimiento: <input type="datatime" name="" id="">
+        <br>Mes:<input type="month" name="" id="">
+        <br>Semana<input type="week" name="" id="">
+        <br>Numero<input type="number" name="numero" value="10" min="-10" max="10" step="1">
+        <br>telefono<input type="phone" name="" id="">
+        <br>Intervalo (min 0, max 10):<input type="range" name="" id="" min="0" max="10">
+        <br>Termino de busqueda <input type=" search " name=" " id=" ">
+        <br>color favorito<input type="color " name=" " id=" ">
+        <button>Submit</button>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+
+</body>
+
+</html>
